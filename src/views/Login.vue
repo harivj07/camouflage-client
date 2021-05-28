@@ -8,7 +8,7 @@
       </div>
       <div :class="{ 'signup-form': !showLoginForm }" class="col2">
         <form v-if="showLoginForm" @submit.prevent>
-          <h1>Welcome Back</h1>
+          <h1>Welcome hari</h1>
           <div>
             <label for="email1">Email</label>
             <input v-model.trim="loginForm.email" type="text" placeholder="you@email.com" id="email1" />
